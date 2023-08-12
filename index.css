@@ -38,3 +38,12 @@ p{
 .navelement a:hover{
     background-color: rgb(53, 53, 110); 
 }
+#projects-section{
+    background-color: rgb(57, 57, 126);
+}
+.item{
+    background-color: rgb(44, 43, 43);
+}
+.grid{
+
+}
