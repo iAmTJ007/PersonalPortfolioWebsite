@@ -3,6 +3,7 @@ img{
     height: 60%;
     object-fit: cover;
 }
+
 body{
     text-align: center;
     font-size: 2rem;
@@ -41,7 +42,7 @@ a{
 .navelement a:hover{
     background-color: rgb(53, 53, 110); 
 }
-#projects-section{
+#projects{
     background-color: rgb(57, 57, 126);
     padding-top: 2.5rem;
 }
