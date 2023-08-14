@@ -1,6 +1,7 @@
 img{
     width: 90%;
     height: 60%;
+    object-fit: cover;
 }
 body{
     text-align: center;
@@ -49,10 +50,11 @@ a{
     padding-left: 10rem;
     padding-right: 10rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 } 
 .project-para{
-    background-color: black;
+    position: relative;
+    top: -2.6rem;
 }
