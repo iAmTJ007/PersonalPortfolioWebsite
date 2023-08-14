@@ -1,12 +1,13 @@
 img{
-    width: 90%;
-    height: 60%;
+    width: 20vw;
+    height: 25vh;
     object-fit: cover;
 }
 
 body{
+    width: 99%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: rgb(38, 34, 34);
     color: white;
     font-family: 'Nunito Sans', sans-serif;
@@ -48,14 +49,33 @@ a{
 }
 
 .grid{
-    padding-left: 10rem;
-    padding-right: 10rem;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     grid-template-rows: 1fr 1fr 1fr;
 } 
-.project-para{
-    position: relative;
-    top: -2.6rem;
+
+@media(max-width: 960px) and (min-width: 376px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 60vw;
+        height: 45vh;
+        object-fit: cover;
+    }
 }
+ @media(max-width: 376px){
+    img{
+        width: 70vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+} 
